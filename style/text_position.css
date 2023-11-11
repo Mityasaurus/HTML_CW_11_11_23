@@ -1,0 +1,14 @@
+* {
+  color: grey;
+  padding: 0;
+  margin: 0;
+}
+
+span {
+  color: blue;
+}
+
+.mainText {
+  color: chocolate;
+  font-weight: 900;
+}

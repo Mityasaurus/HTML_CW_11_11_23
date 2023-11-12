@@ -1,10 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Lora", serif;
+  list-style: none;
+}
 body {
+  background-color: #292828;
+  width: 100vw;
+  /* height: 100vh; */
 }
 header {
+  width: 595px;
+  height: 202px;
+  background-image: url(../image/header.png);
+  margin: 0 auto;
 }
-footer {
+.name_box {
+  padding-left: 34px;
+  padding-top: 124px;
 }
-.nav_box {
+main {
+  width: 595px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #5a5a5a 0%, #191414 26.21%);
 }
-#nav_box {
+.btn_text {
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background: #1db954;
+  margin-right: 12px;
+}
+.btn {
+  padding-left: 35px;
+  padding-top: 25px;
+}
+.linkedin {
+  padding: 7px 20px;
+}
+.email {
+  padding: 7px 25px;
+}
+.call {
+  padding: 7px 29px;
 }
